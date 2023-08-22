@@ -15,10 +15,16 @@ public Object[][] getData(){
 	map.put("username","user@gmail.com");
 	map.put("password","pass123");
 	
+	System.out.println("Keys" +map.keySet());
+	System.out.println("Values" +map.values());
+	
 	HashMap<String, String> map1 = new HashMap<String, String>();
 	map1.put("email","abc@gmail.com");
 	map1.put("username","user@gmail.com");
 	map1.put("password","pass123");
+	
+	System.out.println("Keys" +map1.keySet());
+	System.out.println("Values" +map1.values());
 	
 	return new Object[][]{{map},{map1}};
 }
@@ -42,5 +48,5 @@ public void fetchingdata(HashMap<String, String> input)
     <scope>test</scope>
 </dependency>
 
-// Add TestNG from the Project>Properties>Java Build Path>Classpath>Add Library
+// Add TestNG from the Project>Properties>Java BUild Path>Classpath>Add Library
 */
