@@ -13,11 +13,11 @@ public class checkImageLoads {
     
      WebDriver driver = new ChromeDriver();
 
-        driver.navigate().to("https://iitpatna.campus365.io/site/userlogin");
+        driver.navigate().to("link");
         Actions action = new Actions(driver);
 
-        action.moveToElement(driver.findElement(By.xpath("//input[@id='form-username']"))).click().sendKeys("IITP000678").doubleClick().build().perform();
-        action.moveToElement(driver.findElement(By.xpath("//input[@id='form-password']"))).click().sendKeys("moce0b").doubleClick().build().perform();
+        action.moveToElement(driver.findElement(By.xpath("//input[@id='form-username']"))).click().sendKeys("text").doubleClick().build().perform();
+        action.moveToElement(driver.findElement(By.xpath("//input[@id='form-password']"))).click().sendKeys("text").doubleClick().build().perform();
         action.moveToElement(driver.findElement(By.xpath("//button[@id='load1']"))).click().build().perform();
         Thread.sleep(5000);
         action.moveToElement(driver.findElement(By.xpath("//label[@for='1281']"))).click().build().perform();
