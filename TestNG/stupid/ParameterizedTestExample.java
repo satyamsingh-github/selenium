@@ -20,8 +20,8 @@ public class ParameterizedTestExample {
     public Object[][] searchData() {
         // Define your test data here
         return new Object[][] {
-            {"https://iitpatna.campus365.io/site/userlogin","IITP000678","moce0b"},
-            {"https://iitpatna.campus365.io/site/userlogin","IITP000678","moce0b"}
+            {"link","username","passsword"},
+            {"link","username","password"}
             
         };
     }
