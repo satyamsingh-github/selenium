@@ -13,7 +13,7 @@ public class CoOrdinateClick {
          WebDriver driver = new ChromeDriver();
          
          driver.manage().window().maximize();
-         driver.navigate().to("https://iitpatna.campus365.io/site/userlogin");
+         driver.navigate().to("link");
          
          
 
