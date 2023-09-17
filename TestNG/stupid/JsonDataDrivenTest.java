@@ -24,7 +24,7 @@ public class JsonDataDrivenTest {
         public void loginTest(String username, String password) {
     	System.setProperty("webdriver.chrome.driver", "C:\\Users\\Satyam\\OneDrive\\Desktop\\chromedriver.exe");
         WebDriver driver = new ChromeDriver();
-        driver.get("https://iitpatna.campus365.io/site/userlogin");
+        driver.get("link");
 
         WebElement usernameField = driver.findElement(By.xpath("//input[@id='form-username']"));
         WebElement passwordField = driver.findElement(By.xpath("//input[@id='form-password']"));
