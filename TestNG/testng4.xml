@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<parameter name="URL" value="https://iitpatna.campus365.io/site/userlogin"/>  
+	<parameter name="Username" value="IITP000678"/>  
+    <parameter name="Password" value="moce0b"/>  
+  <test thread-count="5" name="Test">
+	  <classes><class name="stupid.parameterInXML"></class></classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
