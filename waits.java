@@ -22,8 +22,8 @@ public class waits {
         //Implicit Wait
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(6));
 
-        action.moveToElement(driver.findElement(By.xpath("//input[@id='form-username']"))).click().sendKeys("IITP000678").doubleClick().build().perform();
-        action.moveToElement(driver.findElement(By.xpath("//input[@id='form-password']"))).click().sendKeys("moce0b").doubleClick().build().perform();
+        action.moveToElement(driver.findElement(By.xpath("//input[@id='form-username']"))).click().sendKeys("").doubleClick().build().perform();
+        action.moveToElement(driver.findElement(By.xpath("//input[@id='form-password']"))).click().sendKeys("").doubleClick().build().perform();
         action.moveToElement(driver.findElement(By.xpath("//button[@id='load1']"))).click().build().perform();
         
         //Explicit Wait
